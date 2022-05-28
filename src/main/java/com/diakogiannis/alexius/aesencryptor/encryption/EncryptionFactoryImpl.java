@@ -47,7 +47,7 @@ public class EncryptionFactoryImpl implements EncryptionFactory {
     private static final Logger LOG = Logger.getLogger(EncryptionFactoryImpl.class.getSimpleName());
 
     private static final String AES_PADDING = EncodingProperties.PADDING.value();
-    private static final int AES_KEY_LENGTH = 256;
+    private static final int AES_KEY_LENGTH = 128;
     
     /**
      * encrypts a Base64 string
